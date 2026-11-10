@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <defs>
+    <radialGradient id="gradBg" cx="50%" cy="50%" r="50%" fx="30%" fy="30%">
+      <stop offset="0%" stop-color="#1A2D26" />
+      <stop offset="70%" stop-color="#0E1A16" />
+      <stop offset="100%" stop-color="#060E0B" />
+    </radialGradient>
+    <linearGradient id="goldBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FCD34D" />
+      <stop offset="35%" stop-color="#D97706" />
+      <stop offset="70%" stop-color="#F59E0B" />
+      <stop offset="100%" stop-color="#92400E" />
+    </linearGradient>
+    <linearGradient id="leather" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#9A3412" />
+      <stop offset="100%" stop-color="#451A03" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background circle with leather and gold rings -->
+  <circle cx="256" cy="256" r="248" fill="url(#gradBg)" stroke="url(#goldBorder)" stroke-width="16" />
+  <circle cx="256" cy="256" r="230" fill="none" stroke="#78350F" stroke-width="6" stroke-dasharray="8 6" />
+
+  <!-- Sun Rays of the Pampa -->
+  <path d="M 256,120 L 256,70 M 340,155 L 375,120 M 172,155 L 137,120" stroke="#F59E0B" stroke-width="8" stroke-linecap="round" opacity="0.6" />
+
+  <!-- Radio Waves -->
+  <path d="M 170,220 A 110,110 0 0,1 342,220" fill="none" stroke="#D97706" stroke-width="8" stroke-linecap="round" opacity="0.8" />
+  <path d="M 195,235 A 75,75 0 0,1 317,235" fill="none" stroke="#F59E0B" stroke-width="8" stroke-linecap="round" />
+  <path d="M 220,250 A 42,42 0 0,1 292,250" fill="none" stroke="#FDE68A" stroke-width="8" stroke-linecap="round" />
+
+  <!-- Acoustic Guitar & Chimarrao Cuia Silhouette in Gold -->
+  <g transform="translate(180, 240)">
+    <!-- Cuia silhouette -->
+    <path d="M 120,40 C 135,40 145,55 142,75 C 138,105 110,125 90,125 C 70,125 42,105 38,75 C 35,55 45,40 60,40 Z" fill="url(#leather)" stroke="#F59E0B" stroke-width="4" />
+    <!-- Bomba -->
+    <path d="M 100,50 L 130,-15" stroke="#FDE68A" stroke-width="6" stroke-linecap="round" />
+    <circle cx="132" cy="-18" r="5" fill="#D97706" />
+    <!-- Chimarrão Erva Mate Green -->
+    <ellipse cx="90" cy="45" rx="35" ry="12" fill="#059669" stroke="#34D399" stroke-width="2" />
+  </g>
+
+  <!-- Central Star / Emblema -->
+  <polygon points="256,380 266,410 298,410 272,430 282,460 256,442 230,460 240,430 214,410 246,410" fill="#F59E0B" stroke="#78350F" stroke-width="2" />
+  
+  <!-- Text Ring -->
+  <text x="256" y="490" text-anchor="middle" font-family="sans-serif" font-weight="900" font-size="28" fill="#FBBF24" letter-spacing="4">PÁTRIA E QUERÊNCIA</text>
+</svg>

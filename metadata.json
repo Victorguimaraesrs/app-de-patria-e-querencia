@@ -1,0 +1,6 @@
+{
+  "name": "Rádio de Pátria e Querência - Player & App PWA",
+  "description": "Aplicativo oficial para ouvir e instalar a Rádio de Pátria e Querência. Tradição gaúcha, folclore e música nativista 24 horas no ar.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
